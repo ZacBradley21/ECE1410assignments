@@ -12,6 +12,7 @@ Begin
 End
 */
 #include <iostream>
+//g++ HelloWorld.cpp -o HelloWorld.exe
 using namespace std;
 int main(void)
 {
