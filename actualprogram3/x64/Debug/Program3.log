@@ -1,0 +1,14 @@
+﻿  Source.cpp
+C:\Users\riley\source\repos\Program3\Program3\Source.cpp(37,32): error C2065: 'letter': undeclared identifier
+C:\Users\riley\source\repos\Program3\Program3\Source.cpp(37,38): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
+C:\Users\riley\source\repos\Program3\Program3\Source.cpp(37,11): message : The initializer contains too many elements
+C:\Users\riley\source\repos\Program3\Program3\Source.cpp(38,7): error C2182: 'printResult': illegal use of type 'void'
+C:\Users\riley\source\repos\Program3\Program3\Source.cpp(38,38): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
+C:\Users\riley\source\repos\Program3\Program3\Source.cpp(38,18): message : The initializer contains too many elements
+C:\Users\riley\source\repos\Program3\Program3\Source.cpp(88,23): error C2065: 'array': undeclared identifier
+C:\Users\riley\source\repos\Program3\Program3\Source.cpp(88,39): error C2065: 'array': undeclared identifier
+C:\Users\riley\source\repos\Program3\Program3\Source.cpp(134,28): error C2660: 'count': function does not take 2 arguments
+C:\Users\riley\source\repos\Program3\Program3\Source.cpp(103,5): message : see declaration of 'count'
+C:\Users\riley\source\repos\Program3\Program3\Source.cpp(136,70): error C2563: mismatch in formal parameter list
+C:\Users\riley\source\repos\Program3\Program3\Source.cpp(136,70): error C2568: '<<': unable to resolve function overload
+C:\Users\riley\source\repos\Program3\Program3\Source.cpp(136,70): message : could be 'std::basic_ostream<_Elem,_Traits> &std::endl(std::basic_ostream<_Elem,_Traits> &)'
