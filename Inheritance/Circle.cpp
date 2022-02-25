@@ -37,7 +37,7 @@ Circle::~Circle()
 {
 }
 
-Circle::Circle(int radius)
+Circle::Circle(double radius)
 	: Shape(), r(radius)
 {
 }

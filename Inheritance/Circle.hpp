@@ -8,12 +8,12 @@ class Circle : public Shape
 public:
 	Circle();
 	~Circle();
-	Circle(int radius);
+	Circle(double radius);
 	virtual double calculateArea() const override final;
 	virtual double calculatePerimeter() const override final;
 
 private:
-	int r;
+	double r;
 };
 
 #endif

@@ -33,17 +33,17 @@ End
 */
 
 int main(void) {
-	Rectangle* r0 = new Rectangle(4, 5);
-	Rectangle* r1 = new Rectangle(6, 8);
-	Circle* c0 = new Circle(4);
-	Circle* c1 = new Circle(8);
+	Rectangle* r0 = new Rectangle(15, 20);
+	Rectangle* r1 = new Rectangle(30, 50);
+	Circle* c2 = new Circle(50);
+	Circle* c3 = new Circle(10);
 	r0->printInformation();
 	r1->printInformation();
-	c0->printInformation();
-	c1->printInformation();
+	c2->printInformation();
+	c3->printInformation();
 	delete r0;
 	delete r1;
-	delete c0;
-	delete c1;
+	delete c2;
+	delete c3;
 	return 0;
 }

@@ -7,13 +7,13 @@ class Rectangle : public Shape
 public:
 	Rectangle();
 	~Rectangle();
-	Rectangle(int width, int height);
+	Rectangle(double width, double height);
 	virtual double calculateArea() const override final;
 	virtual double calculatePerimeter() const override final;
 
 private:
-	int w;
-	int h;
+	double w;
+	double h;
 };
 
 #endif

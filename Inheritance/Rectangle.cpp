@@ -37,7 +37,7 @@ Rectangle::~Rectangle()
 {
 }
 
-Rectangle::Rectangle(int width, int height)
+Rectangle::Rectangle(double width, double height)
 	: Shape(), w(width), h(height)
 {
 }
